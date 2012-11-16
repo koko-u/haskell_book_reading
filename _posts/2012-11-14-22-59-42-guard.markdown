@@ -1,0 +1,16 @@
+第３章 関数の構文
+================
+
+ガード
+-------------
+
+関数を定義する時に、引数の性質に応じて定義式を場合分けする。普通に if 文を書くのと同じような感覚で
+
+<pre class="brush: hs">
+bmiTell bmi
+  | bmi <= 18.5 = "You're underweight"
+  | bmi <= 25.0 = "You're normal.\
+                  \ I bet you're ugly!"
+  | bmi <= 30.0 = "You're fat!"
+  | otherwise   = "You're a whale!"
+</pre>

@@ -1,0 +1,16 @@
+演習１
+======
+
+与えられた文字列を大文字に変換する関数を書きなさい
+
+<pre class="brush: plain">
+    ghci> upperCase "Hello World"
+    "HELLO WORLD"
+</pre>
+
+与えられた文字列から空白を除去する関数を書きなさい
+
+<pre class="brush: plain">
+    ghci> removeSpace "Hello World\nI'm John."
+    "HelloWorldI'mJohn."
+</pre>

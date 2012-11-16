@@ -1,0 +1,18 @@
+第３章 関数の構文
+================
+
+補足
+-----
+
+ガードの定義で出てきた otherwise も関数で実体は True と同じ。そりゃそうだ。
+
+文字列中で \ と \ の間の空白は無視される。長い文字列を折り返すのに使うみたい。
+
+<pre class="brush: hs">
+    pangram =
+      "\
+       \The quick brown fox\n\
+       \jumps over the\n\
+       \lazy dog.\n\
+       \"
+</pre>

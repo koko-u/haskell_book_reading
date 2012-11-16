@@ -1,0 +1,9 @@
+title: 'すごい Haskell 読書会 #2'
+author: 'KOZAKI Tsuneaki'
+email: kozaki.tsuneaki@gmail.com
+venue: Osaka
+date: 2012-11-16
+
+auto: on
+pygments: true
+markdown: rdiscount

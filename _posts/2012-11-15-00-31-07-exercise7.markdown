@@ -1,0 +1,14 @@
+演習７
+======
+
+n 個の数から重複せずに k 個の数を取り出す場合の数を求める関数を書け。
+いわゆる <sub>n</sub>C<sub>k</sub>
+
+ダメな例...もういいよね。
+<pre class="brush: hs">
+    combi n k
+      | k == 1    = n
+      | n == k    = 1
+      | otherwise = combi (n-1) (k-1) +
+                    combi (n-1) k
+</pre>

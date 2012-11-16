@@ -1,0 +1,20 @@
+復習(式とは)
+============
+
+第１章、第２章で登場した要素で式とは
+
+数値、文字、文字列
+<pre class="brush: hs">
+10
+'a'
+"hello"
+</pre>
+リスト、タプル
+<pre class="brush: hs">
+[1, 2, 3]
+('a', "young")
+</pre>
+if .. then .. else
+<pre class="brush: hs">
+if pi == 3 then "ゆとり" else "おっさん"
+</pre>

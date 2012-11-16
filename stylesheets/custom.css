@@ -1,0 +1,15 @@
+.syntaxhighlighter,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody
+{
+  font-size: 1.05em !important;
+}
+
+.syntaxhighlighter
+{
+  padding: 2px !important;
+}

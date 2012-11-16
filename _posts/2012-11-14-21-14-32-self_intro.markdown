@@ -1,0 +1,10 @@
+自己紹介 ![icon](img/bakeneko.jpg)
+========
+
+<strong>twitter:　</strong> @koko_u<br />
+
+<strong>名前:　　</strong> 小崎つねあき <br />
+
+<strong>仕事:　　</strong> SI屋さん <br />
+
+<strong>Haskell歴:</strong> 1ヶ月 <br />

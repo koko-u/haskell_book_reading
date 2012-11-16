@@ -1,0 +1,22 @@
+復習(式とは)
+============
+
+関数適用
+<pre class="brush: hs">
+max 3 7
+(+) 10 2
+</pre>
+
+----
+
+let式
+<pre class="brush: hs">
+let incr n = n + 1 in incr 100
+</pre>
+
+case式
+<pre class="brush: hs">
+case list of []  -> "empty"
+             [x] -> "single list"
+             _   -> "uncountable list"
+</pre>

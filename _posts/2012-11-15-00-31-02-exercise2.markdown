@@ -1,0 +1,11 @@
+演習２
+======
+
+リスト lst1 が lst2 を含んでいるかどうかを判定する関数を書け
+
+<pre class="brush: plain">
+    ghci> [1..4] `cover` [2..4]
+    True
+    ghci> [1..4] `cover` [2..6]
+    False
+</pre>

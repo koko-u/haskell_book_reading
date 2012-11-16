@@ -1,0 +1,17 @@
+第３章 関数の構文
+================
+
+where
+-----
+
+関数を定義する時、関数定義のスコープ内でしか使用しない変数(=関数)を定義するのに使う
+
+<pre class="brush: hs">
+bmiTell weight height
+  | bmi <= 18.5 = "You're underweight"
+  | bmi <= 25.0 = "You're normal.\
+                  \ I bet you're ugly!"
+  | bmi <= 30.0 = "You're fat!"
+  | otherwise   = "You're a whale!"
+  where bmi = weight / height ^ 2
+</pre>

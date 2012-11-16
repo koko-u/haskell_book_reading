@@ -1,0 +1,17 @@
+第３章 関数の構文
+================
+
+if 式で書くと残念な感じになるのでガードを使いましょう。
+
+<pre class="brush: hs">
+bmiTell bmi = if bmi <= 18.5
+              then "You're underweight"
+              else if bmi <= 25.0
+                   then "You're normal.\
+                       \ I bet you're ugly"
+                   else if bmi <= 30.0
+                        then "You're fat!"
+                        else "You're a ..."
+</pre>
+
+条件が並列に書けるのでガードの方が読みやすい

@@ -1,0 +1,14 @@
+演習６
+======
+
+第 n 番目のフィボナッチ数を得る関数を書け、ただし 1番目と 2番目のフィボナッチ数は 1 とする
+
+ダメな例
+<pre class="brush: hs">
+    fib :: Integer -> Integer
+    fib 1 = 1
+    fib 2 = 1
+    fib n = fib (n-1) + fib (n-2)
+</pre>
+
+fib 50 くらいで還らぬ人となります。

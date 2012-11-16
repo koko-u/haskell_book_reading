@@ -1,0 +1,17 @@
+第３章 関数の構文
+================
+
+where節で関数を定義してもいい。変数と関数は同じ
+
+<pre class="brush: hs">
+bmiTell weight height
+  | skinny bmi  = "You're underweight"
+  | normal bmi  = "You're normal.\
+                  \ I bet you're ugly!"
+  | fat bmi     = "You're fat!"
+  | otherwise   = "You're a whale!"
+  where bmi = weight / height ^ 2
+        skinny x = x <= 18.5
+        normal x = x > 18.5 && x <= 25.0
+        fat    x = x > 25.0 && x <= 30.0
+</pre>
