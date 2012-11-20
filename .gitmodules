@@ -1,3 +1,3 @@
 [submodule "slippy"]
 	path = slippy
-	url = git@github.com:koko-u/slippy.git
+	url = git://github.com/koko-u/slippy.git
