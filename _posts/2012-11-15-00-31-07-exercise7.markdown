@@ -1,14 +1,14 @@
 演習７
 ======
 
-n 個の数から重複せずに k 個の数を取り出す場合の数を求める関数を書け。
-いわゆる <sub>n</sub>C<sub>k</sub>
+縦に n マス、横に k マスの碁盤目をＡからＢまで最短経路で移動する場合の数を求めよ
+
+![path](img/path.png)
 
 ダメな例...もういいよね。
 <pre class="brush: hs">
-    combi n k
-      | k == 1    = n
-      | n == k    = 1
-      | otherwise = combi (n-1) (k-1) +
-                    combi (n-1) k
+    pathCount _ 0 = 1
+    pathCount 0 _ = 1
+    pathCount n k = pathCount (n-1) k +
+                    pathCount n (k-1)
 </pre>
