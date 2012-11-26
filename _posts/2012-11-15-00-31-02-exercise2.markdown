@@ -9,3 +9,12 @@
     ghci> [1..4] `cover` [2..6]
     False
 </pre>
+
+重複も考慮
+
+<pre class="brush: plain">
+    ghci> [1, 1, 2] `cover` [1, 1]
+    True
+    ghci> [1, 2] `cover` [1, 1]
+    False
+</pre>
